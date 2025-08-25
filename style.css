@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --BG-Color: #EEE5E9;
+    --Heading-Color: #CF5C36;
+    --Body-Text-Color: #000000;
+    --Section-BG-Color: #7C7C7C;
+    --BTN-BG-Color: #EFC88B;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    background-color: var(--BTN-BG-Color);
+    border: none;
+    border-radius: 25px;
+    transition: all 500ms;
+    font-size: 1.25rem;
+    font-family: "Playfair Display", serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background: transparent;
+    border: 2.5px solid var(--BTN-BG-Color);
+    transform: translateY(-5px);
+}
+
+body{
+    font-family: "Playfair Display", serif;
+    background-color: var(--BG-Color);
+    color: var(--Body-Text-Color);
+}
+
+.heading{
+    color: var(--Heading-Color);
+    text-align: center;
+}
